@@ -1366,12 +1366,13 @@ h1 {
 
 .centered {
   position: absolute;
-  top: 350px;
-  left: 300px;
-  font-size: 100px;
+  top: 100px;
+  left: 250px;
+  font-size: 150px;
   margin: 0px;
   padding: 0px;
-  font-family: 'Blinker', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Pacifico', cursive;
   font-color: black;
 }
 
@@ -1435,6 +1436,18 @@ h1 {
 .container.color-game h1{
   padding-top: 10px;
   text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.container.color-game p{
+  color: black;
+  font-weight: bold;
+}
+
+.container.color-game h3{
+  color: black;
+  font-weight: bold;
 }
 
 #color-game{
