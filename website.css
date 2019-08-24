@@ -1493,6 +1493,36 @@ h1 {
 
 }
 
+.container.ball{
+  position: relative
+  left: 30px;
+  top: -100px;
+  height: 900px;
+  width: 1100px;
+  text-align: center;
+  background-image: url(background5.jpg);
+  color: black;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.container.ball p{
+  color: black;
+}
+
+
+.container.ball h1{
+  padding-top: 40px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+
+
 *{
   margin: 0px;
 }
