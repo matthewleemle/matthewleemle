@@ -1451,7 +1451,7 @@ h1 {
 }
 
 #color-game{
-  left: 250px;
+  left: 270px;
   top: 0px;
   position: relative;
   display: block;
@@ -1459,6 +1459,39 @@ h1 {
   height: auto;
 }
 
+
+.container.blog{
+  position: relative
+  left: 30px;
+  top: -80px;
+  height: 900px;
+  width: 1100px;
+  text-align: center;
+  background-image: url(background4.jpg);
+  color: black;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container.blog p{
+  color: black;
+}
+
+
+.container.blog h1{
+  padding-top: 40px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.container.blog img{
+  padding-top: 40px;
+  width: 80%;
+
+}
 
 *{
   margin: 0px;

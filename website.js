@@ -9,12 +9,12 @@ $("#projects").click(function() {
 $("#selfintro").click(function() {
     $([document.documentElement, document.body]).animate({
         scrollTop: $("#introstart").offset().top
-    }, 2000);
+    }, 1000);
 });
 
 
 $("#homebut").click(function() {
     $([document.documentElement, document.body]).animate({
         scrollTop: $("#homefoto").offset().top
-    }, 2000);
+    }, 1000);
 });

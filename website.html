@@ -44,13 +44,13 @@
                      <div class="container robot" id = "robo">
                          <h1 >Coin Picking Robot</h1>
                          <div class="container">
-                           <p> Below is a video of a super cool autonomous robot that picks up coins by itself, which was made with a team of five people. It is programmed in the C language, and uses STM32F051 ARM Cortex-M as its microcontroller.
-                           We used PWM(pulse-width modulation) to control servo motors, and detects its perimeter wires and coins using a peak detector we built. The peak detector uses a copitts oscillator circuit (which of course we built ourselves), and whenever it is near AC current or a coin the frequency of <thead>
-                             oscillator changes drastically. We then use the microcontroller to pick up the change in frequency and let the robot react accordingly. 
+                           <p> Below is a video of an autonomous robot made by a team of five people that picks up coins by itself. It is programmed in the C language and uses STM32F051 ARM Cortex-M as its microcontroller.
+                           We used PWM(pulse-width modulation) to control servo motors, and it detects perimeter wires and coins using a peak detector we built. The peak detector uses a copitts oscillator circuit built using a breadboard. Whenever the robot is near AC current or a coin the frequency of <thead>
+                             oscillator changes. We then use the microcontroller to pick up the change in frequency and let the robot react accordingly.
                           </p>
 
-                          <p>For our bonus, we incorporated a bluetooth module and included a separate mode in which we could choose either a remote control mode or an autonomous mode. In the remote control mode, we can use our smartphones to remotely control the robot and make up coins manually.
-                          It also displays on the smart phone end every time a coin is picked up. In the autonomous mode, the robot turns off after exactly 20 coins.</p>
+                          <p>For our bonus, we incorporated a bluetooth module and included a separate mode in which we could choose either a remote control mode or an autonomous mode. In the remote control mode, we can use a smartphone to remotely control the robot and choose to pick up coins manually.
+                          It also displays on the smartphone's console log every time a coin is picked up. In the autonomous mode, the robot turns off after exactly 20 coins.</p>
 
                           <p>For the most part, I was mainly in charge of microcontroller programming, alongside with some circuit building.</p>
 
@@ -72,6 +72,15 @@
 
                         </div>
                    </div>
+
+                   <div class="container blog">
+                       <h1 >Restful Blog App</h1>
+
+                       <div class="container">
+                           <p>A blog application built using Express.js, MongoDB, and Semantic UI. It follows The 7 Restful routes. Source code is provided on my github.</p>
+
+                           <img  class = "img-fluid img-thumbnail" src="blog.png">
+                      </div>
 
 
              </div> <!-- /#page-content-wrapper -->
