@@ -1332,17 +1332,6 @@ margin-left: -250px;
 }
 
 
-.topphoto {
-    padding: 0px;
-    margin: 0px;
-    height: 1200px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
 
 p {
   margin: 20px 20px;
@@ -1352,38 +1341,36 @@ h1 {
   margin: 20px 20px;
 }
 
-.container{
+#homefoto{
+  position: relative;
+  width: 100%;
   height: 100%;
-  position: right;
-
   padding: 0px;
   margin: 0px;
-
-  position: relative;
+  border-width: 0px;
+  font-size: 0px;
   text-align: center;
   color: white;
 }
 
-.centered {
-  position: absolute;
-  top: 100px;
-  left: 250px;
+#homefoto h2{
+  position: relative;
+  top: -1150px;
+  left: 140px;
   font-size: 150px;
-  margin: 0px;
+  margin-bottom: -800px;
   padding: 0px;
   font-family: 'Lobster', cursive;
   font-family: 'Pacifico', cursive;
-  font-color: black;
 }
 
 
 
-.container.intro{
-  position: relative
-  left: 30px;
-  top: -20px;
+#introstart{
+  position: relative;
   height: 300px;
-  width: 1100px;
+  width: 130%;
+  float: left;
   text-align: center;
   background-image: url(background.jpg);
   color: white;
@@ -1393,12 +1380,13 @@ h1 {
   background-size: cover;
 }
 
-.container.robot{
-  position: relative
-  left: 30px;
-  top: -40px;
-  height: 900px;
-  width: 1100px;
+
+#robo{
+  position: relative;
+  height: 100%;
+  width: 130%;
+  float: left;
+  padding-bottom: 20%;
   text-align: center;
   background-image: url(background2.jpg);
   color: white;
