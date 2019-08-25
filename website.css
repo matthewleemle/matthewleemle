@@ -1343,6 +1343,7 @@ h1 {
 
 #homefoto{
   position: relative;
+  width: 100%;
   height: 100%;
   padding: 0px;
   margin: 0px;
@@ -1352,16 +1353,15 @@ h1 {
   color: white;
 }
 
-#centered {
-  position: absolute;
-  top: 100px;
-  left: 250px;
+#homefoto h2{
+  position: relative;
+  top: -1150px;
+  left: 140px;
   font-size: 150px;
-  margin: 0px;
+  margin-bottom: -800px;
   padding: 0px;
   font-family: 'Lobster', cursive;
   font-family: 'Pacifico', cursive;
-  font-color: black;
 }
 
 
