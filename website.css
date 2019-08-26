@@ -1465,8 +1465,8 @@ h1 {
 @media only screen and (min-width: 600px) {
   #introstart{
     position: relative;
-    height: 300px;
-    width: 200%;
+    height: 30%;
+    width: 180%;
     float: left;
     text-align: center;
     background-image: url(background.jpg);
