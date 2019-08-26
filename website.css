@@ -359,6 +359,7 @@ dl.row > dd + dt {
 
 @media (min-width: 768px) {
 
+
     .pull-md-0 {
         left: auto;
     }
@@ -1003,6 +1004,10 @@ dl.row > dd + dt {
     .navbar-toggleable-sm .navbar-nav .nav-item {
         margin-right: 0;
     }
+
+
+
+
 }
 
 @media (max-width: 991px) {
@@ -1182,6 +1187,8 @@ dl.row > dd + dt {
 }
 
 @media (min-width: 544px) {
+
+
     .carousel-control .icon-prev {
         margin-right: -15px;
     }
@@ -1343,6 +1350,15 @@ h1 {
 
 
 
+*{
+  margin: 0px;
+}
+
+
+
+
+
+
 #homefoto{
   position: relative;
   width: 100%;
@@ -1358,7 +1374,7 @@ h1 {
 #homefoto h2{
   position: relative;
   top: -800px;
-  left: 140px;
+  left: 80%;
   font-size: 150px;
   margin-bottom: -600px;
   padding: 0px;
@@ -1368,10 +1384,11 @@ h1 {
 
 
 
+
 #introstart{
   position: relative;
   height: 300px;
-  width: 130%;
+  width: 280%;
   float: left;
   text-align: center;
   background-image: url(background.jpg);
@@ -1386,7 +1403,7 @@ h1 {
 #robo{
   position: relative;
   height: 100%;
-  width: 130%;
+  width: 280%;
   float: left;
   padding-bottom: 20%;
   text-align: center;
@@ -1401,7 +1418,7 @@ h1 {
 #color-game{
   position: relative;
   height: 100%;
-  width: 130%;
+  width: 280%;
   float: left;
   font-weight: bold;
   padding-bottom: 20%;
@@ -1415,18 +1432,18 @@ h1 {
 }
 
 #color-game-pic{
-  left: 270px;
+  left: 320px;
   top: 0px;
   position: relative;
   display: block;
-  max-width: 50%;
+  width: 50%;
   height: auto;
 }
 
 
 #blog{
   height: 100%;
-  width: 130%;
+  width: 280%;
   float: left;
   padding-bottom: 20%;
   text-align: center;
@@ -1446,7 +1463,7 @@ h1 {
 
 #ball{
   height: 100%;
-  width: 130%;
+  width: 280%;
   float: left;
   padding-bottom: 20%;
   text-align: center;
@@ -1462,11 +1479,122 @@ h1 {
 
 
 
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
 
-}
-
-
-
-*{
+  #homefoto{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
   margin: 0px;
+  border-width: 0px;
+  font-size: 0px;
+  text-align: center;
+  color: white;
+  }
+
+  #homefoto h2{
+  position: relative;
+  top: -900px;
+  left: 140px;
+  font-size: 150px;
+  margin-bottom: -600px;
+  padding: 0px;
+  font-family: 'Lobster', cursive;
+  font-family: 'Pacifico', cursive;
+  }
+
+
+
+  #introstart{
+  position: relative;
+  height: 300px;
+  width: 130%;
+  float: left;
+  text-align: center;
+  background-image: url(background.jpg);
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+
+  #robo{
+  position: relative;
+  height: 100%;
+  width: 130%;
+  float: left;
+  padding-bottom: 20%;
+  text-align: center;
+  background-image: url(background2.jpg);
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  #color-game{
+  position: relative;
+  height: 100%;
+  width: 130%;
+  float: left;
+  font-weight: bold;
+  padding-bottom: 20%;
+  text-align: center;
+  background-image: url(background3.jpg);
+  color: black;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  #color-game-pic{
+  left: 270px;
+  top: 0px;
+  position: relative;
+  display: block;
+  width: 50%;
+  height: auto;
+  }
+
+
+  #blog{
+  height: 100%;
+  width: 130%;
+  float: left;
+  padding-bottom: 20%;
+  text-align: center;
+  background-image: url(background4.jpg);
+  color: black;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  #blog-pic{
+  padding-top: 40px;
+  width: 80%;
+  }
+
+
+  #ball{
+  height: 100%;
+  width: 130%;
+  float: left;
+  padding-bottom: 20%;
+  text-align: center;
+  background-image: url(background5.jpg);
+  color: black;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
 }
