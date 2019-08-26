@@ -1332,17 +1332,6 @@ margin-left: -250px;
 }
 
 
-.topphoto {
-    padding: 0px;
-    margin: 0px;
-    height: 1200px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
 
 p {
   margin: 20px 20px;
@@ -1352,38 +1341,38 @@ h1 {
   margin: 20px 20px;
 }
 
-.container{
-  height: 100%;
-  position: right;
+@media only screen and (min-width: 768px) {
 
+#homefoto{
+  position: relative;
+  width: 100%;
+  height: 100%;
   padding: 0px;
   margin: 0px;
-
-  position: relative;
+  border-width: 0px;
+  font-size: 0px;
   text-align: center;
   color: white;
 }
 
-.centered {
-  position: absolute;
-  top: 100px;
-  left: 250px;
+#homefoto h2{
+  position: relative;
+  top: -800px;
+  left: 140px;
   font-size: 150px;
-  margin: 0px;
+  margin-bottom: -65%;
   padding: 0px;
   font-family: 'Lobster', cursive;
   font-family: 'Pacifico', cursive;
-  font-color: black;
 }
 
 
 
-.container.intro{
-  position: relative
-  left: 30px;
-  top: -20px;
+#introstart{
+  position: relative;
   height: 300px;
-  width: 1100px;
+  width: 130%;
+  float: left;
   text-align: center;
   background-image: url(background.jpg);
   color: white;
@@ -1393,12 +1382,13 @@ h1 {
   background-size: cover;
 }
 
-.container.robot{
-  position: relative
-  left: 30px;
-  top: -40px;
-  height: 900px;
-  width: 1100px;
+
+#robo{
+  position: relative;
+  height: 100%;
+  width: 130%;
+  float: left;
+  padding-bottom: 20%;
   text-align: center;
   background-image: url(background2.jpg);
   color: white;
@@ -1408,49 +1398,23 @@ h1 {
   background-size: cover;
 }
 
-.container.color-game{
-  position: relative
-  left: 30px;
-  top: -60px;
-  height: 900px;
-  width: 1100px;
+#color-game{
+  position: relative;
+  height: 100%;
+  width: 130%;
+  float: left;
+  font-weight: bold;
+  padding-bottom: 20%;
   text-align: center;
   background-image: url(background3.jpg);
-  color: white;
+  color: black;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.container.intro h1{
-  padding-top: 10px;
-  text-align: center;
-}
-
-.container.robot h1{
-  padding-top: 10px;
-  text-align: center;
-}
-
-.container.color-game h1{
-  padding-top: 10px;
-  text-align: center;
-  color: black;
-  font-weight: bold;
-}
-
-.container.color-game p{
-  color: black;
-  font-weight: bold;
-}
-
-.container.color-game h3{
-  color: black;
-  font-weight: bold;
-}
-
-#color-game{
+#color-game-pic{
   left: 270px;
   top: 0px;
   position: relative;
@@ -1460,12 +1424,11 @@ h1 {
 }
 
 
-.container.blog{
-  position: relative
-  left: 30px;
-  top: -80px;
-  height: 900px;
-  width: 1100px;
+#blog{
+  height: 100%;
+  width: 130%;
+  float: left;
+  padding-bottom: 20%;
   text-align: center;
   background-image: url(background4.jpg);
   color: black;
@@ -1475,30 +1438,17 @@ h1 {
   background-size: cover;
 }
 
-.container.blog p{
-  color: black;
-}
-
-
-.container.blog h1{
-  padding-top: 40px;
-  text-align: center;
-  color: black;
-  font-weight: bold;
-}
-
-.container.blog img{
+#blog-pic{
   padding-top: 40px;
   width: 80%;
-
 }
 
-.container.ball{
-  position: relative
-  left: 30px;
-  top: -100px;
-  height: 900px;
-  width: 1100px;
+
+#ball{
+  height: 100%;
+  width: 130%;
+  float: left;
+  padding-bottom: 20%;
   text-align: center;
   background-image: url(background5.jpg);
   color: black;
@@ -1507,20 +1457,6 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
-.container.ball p{
-  color: black;
-}
-
-
-.container.ball h1{
-  padding-top: 40px;
-  text-align: center;
-  color: black;
-  font-weight: bold;
-}
-
 
 
 *{

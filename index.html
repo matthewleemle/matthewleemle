@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-   <meta name="viewport" content="width=device-width, initial-scale=0.41, maximum-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.41, maximum-scale=1" />
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
    <link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico&display=swap" rel="stylesheet">
@@ -28,13 +28,13 @@
              <!-- Page Content -->
              <div id="page-content-wrapper">
 
-               <div class="container topphoto" id = "homefoto">
-                     <img src="robot.jpg" alt="Snow" >
-                     <div> <h2 class="centered"> I am Matthew Lee </h2> </div>
+               <div id = "homefoto">
+                     <img src="robot.jpg">
+                     <h2> I am Matthew Lee </h2>
                </div>
 
 
-                   <div class="container intro" id = "introstart">
+                   <div id = "introstart">
                        <h1 >About me</h1>
                        <p> A current third year EE student at UBC.</p>
                        <p> Since you're here, why not check out some of my projects I made/contributed to?</p>
@@ -42,9 +42,9 @@
                        <p> Also of course, consider hiring me as I am a passionate, aspiring engineer that would love to make the world a better place :P </p>
                      </div>
 
-                     <div class="container robot" id = "robo">
+                     <div id = "robo">
                          <h1 >Coin Picking Robot</h1>
-                         <div class="container">
+                         <div>
                            <p> Below is a video of an autonomous robot made by a team of five people that picks up coins by itself. It is programmed in the C language and uses STM32F051 ARM Cortex-M as its microcontroller.
                            We used PWM(pulse-width modulation) to control servo motors, and it detects perimeter wires and coins using a peak detector we built. The peak detector uses a copitts oscillator circuit built using a breadboard. Whenever the robot is near AC current or a coin the frequency of <thead>
                              oscillator changes. We then use the microcontroller to pick up the change in frequency and let the robot react accordingly.
@@ -60,13 +60,12 @@
                          </div>
                     </div>
 
-                    <div class="container color-game">
+                    <div id= "color-game">
                         <h1 >The Great RGB game</h1>
-
-                        <div class="container">
+                         <div>
                             <p>A beautiful game that lets you guess what color an RGB combination is. There is an easy mode and a hard mode, and is built using DOM manipulation. Colors are randomly generated every game.</p>
 
-                            <img class = "img-fluid img-thumbnail" id = "color-game" src="./color-game.PNG">
+                            <img id = "color-game-pic" class = "img-fluid img-thumbnail"  src="./color-game.PNG">
 
 
                             <h3> If you'd like the access the game, please click <a href="https://matthewleemle.github.io/The-Great-RGB-Color-Game/">HERE</a> </a> </h3>
@@ -74,19 +73,19 @@
                         </div>
                    </div>
 
-                   <div class="container blog">
+                   <div id = "blog">
                        <h1 >Restful Blog App</h1>
 
-                       <div class="container">
+                       <div>
                            <p>A blog application built using Express.js, MongoDB, and Semantic UI. It follows The 7 Restful routes. Source code is provided on my github.</p>
 
-                           <img  class = "img-fluid img-thumbnail" src="./blog.PNG">
+                           <img  id = "blog-pic" class = "img-fluid img-thumbnail" src="./blog.PNG">
                       </div>
 
 
              </div> <!-- /#page-content-wrapper -->
 
-             <div class="container ball">
+             <div id = "ball">
                  <h1 >Roll a ball game</h1>
 
                  <div class="container">
