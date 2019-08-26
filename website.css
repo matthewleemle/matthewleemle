@@ -1466,7 +1466,7 @@ h1 {
   #introstart{
     position: relative;
     height: 30%;
-    width: 180%;
+    width: 500%;
     float: left;
     text-align: center;
     background-image: url(background.jpg);
