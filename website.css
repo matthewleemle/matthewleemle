@@ -1401,25 +1401,22 @@ h1 {
 }
 
 
+
 #robo{
   position: relative;
   height: 100%;
   width: 265%;
   float: left;
   padding-bottom: 20%;
-  text-align: center;
   background-image: url(background2.jpg);
   color: white;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 }
 
-
-#robop{
-  width: 80%;
-}
 
 
 
