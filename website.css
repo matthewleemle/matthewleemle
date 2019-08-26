@@ -1388,7 +1388,7 @@ h1 {
 #introstart{
   position: relative;
   height: 300px;
-  width: 280%;
+  width: 260%;
   float: left;
   text-align: center;
   background-image: url(background.jpg);
@@ -1403,7 +1403,7 @@ h1 {
 #robo{
   position: relative;
   height: 100%;
-  width: 280%;
+  width: 260%;
   float: left;
   padding-bottom: 20%;
   text-align: center;
@@ -1418,7 +1418,7 @@ h1 {
 #color-game{
   position: relative;
   height: 100%;
-  width: 280%;
+  width: 260%;
   float: left;
   font-weight: bold;
   padding-bottom: 20%;
@@ -1443,7 +1443,7 @@ h1 {
 
 #blog{
   height: 100%;
-  width: 280%;
+  width: 260%;
   float: left;
   padding-bottom: 20%;
   text-align: center;
@@ -1463,7 +1463,7 @@ h1 {
 
 #ball{
   height: 100%;
-  width: 280%;
+  width: 260%;
   float: left;
   padding-bottom: 20%;
   text-align: center;
