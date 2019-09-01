@@ -33,7 +33,7 @@
                </div>
 
 
-                   <div id = "introstart">
+                   <div class = "block" id = "introstart">
                        <h1 >About me</h1>
                        <p> A current third year EE student at UBC.</p>
                        <p> Since you're here, why not check out some of my projects I made/contributed to?</p>
@@ -41,7 +41,7 @@
                        <p> Also of course, consider hiring me as I am a passionate, aspiring engineer that would love to make the world a better place :P </p>
                      </div>
 
-                     <div id = "robo">
+                     <div class = "block" id = "robo">
                          <h1 >Coin Picking Robot</h1>
                          <div>
                            <p> Below is a video of an autonomous robot made by a team of five people that picks up coins by itself. It is programmed in the C language and uses STM32F051 ARM Cortex-M as its microcontroller.
@@ -59,7 +59,7 @@
                          </div>
                     </div>
 
-                    <div id= "color-game">
+                    <div class = "block" id= "color-game">
                         <h1 >The Great RGB game</h1>
                          <div>
                             <p>A beautiful game that lets you guess what color an RGB combination is. There is an easy mode and a hard mode, and is built using DOM manipulation. Colors are randomly generated every game.</p>
@@ -72,7 +72,7 @@
                         </div>
                    </div>
 
-                   <div id = "blog">
+                   <div class = "block" id = "blog">
                        <h1 >Restful Blog App</h1>
 
                        <div>
@@ -84,14 +84,36 @@
 
              </div> <!-- /#page-content-wrapper -->
 
-             <div id = "ball">
+             <div class = "block" id = "ball">
                  <h1 >Roll a ball game</h1>
 
                  <div class="container">
                      <p>A game where you can roll a ball using arrow keys made using Unity. You win by collecting all the moving squares. The score is provided on the top left corner and a win is displayed at the end of the game. Source code is provided on my github.</p>
 
-                     <img  class = "img-fluid img-thumbnail" src="./ball.PNG">
+                     <img  class = "img-fluid img-thumbnai ball-pic" src="./ball.PNG">
                 </div>
+              </div>
+
+
+                <div class = "block" id = "arc4">
+                    <h1 >ARC4 Decryption Circuit</h1>
+
+                    <div class="container">
+                        <p>ARC4 is a popular symmetric stream cipher that has since been broken recently. Nevertheless, in the digital design course at UBC has chosen to implement ARC4 as a vehicle for studying digital circuits that make extensive use of on-chip memory on the DE1-SoC. </p>
+                        <p>Though written in a language called Verilog, Verilog is not a programming language, it is a hardware description language that describes circuits. It is syntactically similar to C, and is intended to be synthesized using an FPGA, specifically for the DE1-SoC in this case.</p>
+                        <p>Source code is provided on my Github. </p>
+
+                        <img  class = "img-fluid img-thumbnail " id = "fpgapic" src="./fpga.jpg">
+                        <h5 id = "de1-soc">A Picture of DE1-SoC, the FPGA we used in class</h5>
+
+                        <h3> To learn more about ARC4, please click <a href="https://en.wikipedia.org/wiki/RC4">HERE</a> </a> </h3>
+                   </div>
+
+
+
+
+
+
 
 
        </div> <!-- /#page-content-wrapper -->
