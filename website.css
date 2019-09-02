@@ -1669,12 +1669,17 @@ h1 {
     color: white;
   }
 
+  #email{
+    padding-top: 1%;
+  }
 
   #number{
     right: 3%;
     position: relative;
 
   }
+
+
 
 
 
