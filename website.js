@@ -1,27 +1,27 @@
 
 $("#projects").click(function() {
     $([document.documentElement, document.body]).animate({
-        scrollTop: $("#robo").offset().top
+        scrollTop: $("#robo").offset().top -55
     }, 1000);
 });
 
 
 $("#selfintro").click(function() {
     $([document.documentElement, document.body]).animate({
-        scrollTop: $("#introstart").offset().top
+        scrollTop: $("#introstart").offset().top -55
     }, 1000);
 });
 
 
 $('#homebut').click(function() {
     $([document.documentElement, document.body]).animate({
-        scrollTop: $("#homefoto").offset().top
+        scrollTop: $("#homefoto").offset().top -55
     }, 1000);
 });
 
 $('#brandbut').click(function() {
     $([document.documentElement, document.body]).animate({
-        scrollTop: $("#homefoto").offset().top
+        scrollTop: $("#homefoto").offset().top -55
     }, 1000);
 });
 
@@ -29,7 +29,7 @@ $('#brandbut').click(function() {
 
 $("#contactbut").click(function() {
     $([document.documentElement, document.body]).animate({
-        scrollTop: $("#contacts").offset().top
+        scrollTop: $("#contacts").offset().top -55
     }, 1000);
 });
 
