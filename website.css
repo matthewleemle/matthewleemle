@@ -200,3 +200,16 @@ h1 {
   background-color: black;
   color: white;
 }
+
+
+
+#myBar{
+  top: 50px;
+  width: 100%;
+  position: fixed;
+  visibility: hidden;
+}
+
+.navbar{
+  visibility: hidden;
+}
